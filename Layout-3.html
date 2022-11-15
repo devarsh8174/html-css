@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout-3</title>
+    <style>
+        body{
+        margin: 0;
+        padding: 0;
+        color: black;
+        font-family: sans-serif;
+        text-align:center;
+        font-weight: 550;
+        font-size: 2rem;
+      }
+      .main {
+        box-sizing: border-box;
+        padding: 8px;
+      }
+      #row1{
+        background-color: #5C755E;
+        height: 100px;
+        margin-top: 6px;
+      }
+      #row2{
+        display:flex;
+        margin-top:7px;
+      }
+      .c1{
+        background-color:  #F7DCB4;
+        height: 506px;
+        width: 30%;
+      }
+      #sidecol1{
+        box-sizing: border-box;
+        margin-left: 8px;
+        width:100%;
+      }
+      .r1c1{
+        background-color: #A97D5D;
+        height: 100px;
+      }
+      .r1c2{
+        background-color:rgb(71, 71, 71);
+        height: 400px;
+        margin-top:6px;
+      }
+      #row3{
+        background-color:#9C9F84;
+        height: 100px;
+        margin-top: 6px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="container">
+            <div id="row1">
+              Logo
+            </div> <!-----row1 close------>
+            <div id="row2">
+              <div class="c1">SideBar&Navgation</div>
+                <div id="sidecol1">
+                        <div class="r1c1">Header</div>
+                        <div class="r1c2">Body area</div>
+                </div> <!------sidecol1 div close------>
+            </div> <!------row2 div close----->
+            <div id="row3">Footer</div>
+        </div> <!-----container close------>
+    </div> <!-----main close------>
+    
+  </body>
+</html>

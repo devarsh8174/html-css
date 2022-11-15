@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout-1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .main {
+        box-sizing: border-box;
+        padding: 8px;
+      }
+      .row1 {
+        background-color: rgb(71, 71, 71);
+        color: white;
+        height: 9vh;
+        text-align: center;
+        margin-top: 6px;
+        padding-top: 30px;
+      }
+      .row2 {
+        background-color: darkgray;
+        height: 8vh;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 6px;
+      }
+      .row3 {
+        background-color: rgb(71, 71, 71);
+        color: white;
+        height: 8vh;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 6px;
+      }
+      .c1 {
+        background-color: dimgray;
+        height: 40vh;
+        width: 30%;
+        text-align: center;
+      }
+      .c2 {
+        background-color: dimgray;
+        width: 68%;
+        height: 40vh;
+        text-align: center;
+      }
+      .row4 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+      }
+      .row5 {
+        background-color: darkgrey;
+        margin-top: 6px;
+        padding: 30px;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="row1"><h2>Logo</h2></div>
+            <div class="row2">
+              <h2>Navigation</h2>
+            </div> <!------row2 div close----->
+            <div class="row3">
+             <h2>Header</h2>
+            </div> <!------row3 div close----->
+            <div class="row4">
+              <div class="c1"><h2>Slidbar</h2></div>
+              <div class="c2"><h2>Body area</h2></div>
+            </div> <!------row4 div close----->
+            <div class="row5">
+              <h2>Footer</h2>
+            </div> <!------row5 div close----->
+        </div> <!--div container end--> 
+    </div> <!--div main end-->
+    
+</body>
+</html>
